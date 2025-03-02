@@ -1,0 +1,10 @@
+ls ~/.ssh/
+cat ~/.ssh/id_ed25519.pub 
+
+create repo
+copy the public key and past in the git setting ssh and key 
+and copy ssh from the particular repo
+
+git add .
+git commit -m "First commit"
+git push origin main
